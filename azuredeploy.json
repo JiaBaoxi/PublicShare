@@ -282,7 +282,7 @@
                     {
                         "name": "[variables('container_group')]",
                         "properties": {
-                            "image": "jiabaoxi/scz-mm:v11",
+                            "image": "jiabaoxi/scz-mm:v12",
                             "ports": [
                                 {
                                     "protocol": "TCP",
