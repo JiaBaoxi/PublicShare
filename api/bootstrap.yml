@@ -1,0 +1,5 @@
+    Initialize locker
+    ---
+    responses:
+      200:
+        description: Locker initialized successfully

@@ -1,0 +1,9 @@
+    Login
+    ---
+    responses:
+      200:
+        description: Login successfully
+      400:
+        description: Missing input parameters
+      401:
+        description: Incorrect client secret

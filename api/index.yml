@@ -1,0 +1,5 @@
+    Service status check
+    ---
+    responses:
+      200:
+        description: Service is alive

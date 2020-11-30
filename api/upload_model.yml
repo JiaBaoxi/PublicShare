@@ -1,0 +1,16 @@
+    Upload AI model to locker
+    ---
+    parameters:
+      - name: model
+        in: path
+        type: string
+        required: true
+        description: model name
+      - name: version
+        in: path
+        type: string
+        required: true
+        description: model version
+    responses:
+      200:
+        description: model uploaded successfully

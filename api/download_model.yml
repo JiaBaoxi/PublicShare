@@ -1,0 +1,18 @@
+    Download AI model from locker
+    ---
+    parameters:
+      - name: model
+        in: path
+        type: string
+        required: true
+        description: model name
+      - name: version
+        in: path
+        type: string
+        required: true
+        description: model version
+    responses:
+      200:
+        description: Model downloaded successfully
+      404:
+        description: Model not found
