@@ -571,7 +571,7 @@
     "outputs": {
         "serviceEndpoint": {
             "type": "string",
-            "value": "[concat('https://', variables('domain_label'), '.', parameters('location'), '.cloudapp.azure.com')]"
+            "value": "[concat('https://', variables('domain_label'), '.', parameters('locker_location'), '.cloudapp.azure.com')]"
         }
     }
 }
